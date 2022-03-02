@@ -1,10 +1,11 @@
-const cut3 = (arr: (number | string)[]): (number | string)[] => {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const cut3 = (arr) => {
     arr.splice(2, 1);
     return arr;
 };
-
-const lgNum = (arr: (number | string)[]): number => {
-    let largest: number | string = 0;
+const lgNum = (arr) => {
+    let largest = 0;
     arr.forEach((x) => {
         if (x > largest) {
             largest = x;
@@ -12,23 +13,17 @@ const lgNum = (arr: (number | string)[]): number => {
     });
     return largest;
 };
-
-const addArr = (arr: number[]): number => {
+const addArr = (arr) => {
     let result = 0;
     arr.forEach((value) => {
         result += value;
     });
     return result;
 };
-
-const concatArr = (
-    arr1: number[],
-    arr2: (string | number)[]
-): (number | string)[] => {
+const concatArr = (arr1, arr2) => {
     return [...arr1, ...arr2];
 };
-
-export default {
+exports.default = {
     cut3,
     lgNum,
     concatArr,

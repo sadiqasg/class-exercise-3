@@ -1,5 +1,5 @@
-const Capitalize = (word: string): string => {
-    return word.toUpperCase();
+const capitalize = (str: string): string => {
+    return str.toUpperCase();
 };
 
-module.exports = { Capitalize };
+export default { capitalize };
