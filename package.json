@@ -1,0 +1,25 @@
+{
+    "devDependencies": {
+        "@types/node": "^17.0.21",
+        "typescript": "^4.6.2"
+    },
+    "name": "class-exercise-3",
+    "description": "For this exercise, you are to convert a project to typescript. You are to type all function parameters and all function return types within the utilities files. You are given just the index.js file. Implement the functions in a typescript project.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ludralph/class-exercise-3.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ludralph/class-exercise-3/issues"
+    },
+    "homepage": "https://github.com/ludralph/class-exercise-3#readme"
+}
